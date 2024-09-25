@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",  
     "dev": "nodemon index.js",
-    "build": "echo 'No build necessary for this server'"
+    "build": "npm install && echo 'No build necessary for this server'"
   },
   "engines": {
     "node": "20.x"  
