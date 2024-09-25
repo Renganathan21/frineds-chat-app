@@ -2,15 +2,16 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "backend/index.js",
+  "type": "module",  
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node backend/index.js",  
+    "dev": "nodemon backend/index.js",
     "build": "echo 'No build necessary for this server'"
   },
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": "20.x"  
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
